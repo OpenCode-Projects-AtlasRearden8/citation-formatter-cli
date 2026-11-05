@@ -1,0 +1,47 @@
+# Example sources file for citation-formatter.
+# Fields are all optional; the formatters fill in "n.d." / "Untitled" when
+# something is missing. Authors prefer the "Last, First" form.
+sources:
+  - type: book
+    title: The Massive AI Manual
+    authors: ["Asdale, Dylan"]
+    year: 2026
+    publisher: Asdale Dynamics, LLC
+    city: Indianapolis
+    note: The beginner-friendly AI handbook this guide borrows its plain-English approach from.
+
+  - type: book
+    title: Deep Work
+    authors: ["Newport, Cal"]
+    year: 2016
+    publisher: Grand Central Publishing
+    note: Background for the chapter on focused, low-distraction work sessions.
+
+  - type: article
+    title: Attention is all you need
+    authors: ["Vaswani, Ashish", "Shazeer, Noam"]
+    year: 2017
+    journal: arXiv preprint
+    volume: "1706"
+    pages: "03762"
+    doi: 10.48550/arXiv.1706.03762
+    note: The paper that introduced the transformer architecture behind modern chatbots.
+
+  - type: article
+    title: A friendly study of large language models
+    authors: ["Rivera, Ana", "Okafor, Chidi", "Zhang, Wei"]
+    year: 2024
+    journal: Journal of Practical AI
+    volume: "12"
+    issue: "3"
+    pages: 44-58
+
+  - type: book
+    title: Untitled Works Collection
+    # no author, no year on purpose: shows graceful handling
+
+  - type: webpage
+    title: Publishing your first low-content book
+    year: 2025
+    url: https://example.com/kdp-guide
+    note: A practical walkthrough of the KDP upload process.
